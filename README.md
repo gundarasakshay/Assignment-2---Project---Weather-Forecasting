@@ -1,52 +1,59 @@
 ![Application screenshot](./public/screenshot.png)
 
-🌦️ Weather Forecasting App
-Stay updated with the latest weather forecasts for any city around the world. Our app provides detailed weather predictions, including 3-hour intervals, for the upcoming 5-6 days.
+<br/>
+<br/>
 
-Live Demo
+With [The Weather Forecasting](https://the-weather-forecasting.netlify.app) user can search locations by city name and observe the weather for the next 5-6 days and 3 hour interval.
+<br />
+The app is developed using React.js and material-UI.
 
-🚀 Quick Start Guide
-Prerequisites:
-Ensure Node.js and npm are installed on your system.
-Obtain an API key from OpenWeatherMap. After signing up, you can find your API key in the account dashboard.
-Setup Instructions:
-Clone the Repository:
+<br/>
 
-bash
-Copy code
+## 💻 Live Demo:
+
+https://the-weather-forecasting.netlify.app
+
+<br/>
+
+## ✨ Getting Started
+
+- Make sure you already have `Node.js` and `npm` installed in your system.
+- You need an API key from [OpenWeatherMap](https://openweathermap.org/). After creating an account, [grab your key](https://home.openweathermap.org/api_keys).
+- Then, under the `src` directory, go to `api/OpenWeatherService` and replace `WEATHER_API_KEY` with your OpenWeatherMap API Key.
+  - **`api/OpenWeatherService.js`**: It contains the code related to the back-end of the application.
+
+<br/>
+
+## ⚡ Install
+
+- Clone the repository:
+
+```bash
 git clone https://github.com/Amin-Awinti/the-weather-forecasting.git
-Install Dependencies: Navigate to the project folder and run:
 
-bash
-Copy code
-npm install
-Configure API Key:
+```
 
-In the src/api/OpenWeatherService.js file, replace WEATHER_API_KEY with your OpenWeatherMap API key.
-Run the App:
+- Install the packages using the command `npm install`
 
-bash
-Copy code
-npm start
-Your local instance of the Weather Forecasting App will be live!
+<br/>
 
-🌟 Features
-City-based Search: Input any city name to retrieve weather information.
-Detailed Forecasts: View 3-hour interval forecasts over the next 5-6 days.
-Responsive UI: Built with Material-UI for sleek and accessible design.
-🛠️ Technologies & Libraries
-Front-end Framework: React.js
-UI Library: Material-UI
-For a full list of dependencies, see the package.json file.
+## 📙 Used libraries
 
-🔮 Upcoming Features
-Here’s what’s in store for future updates:
+- `react-js`
+- `material-ui`
 
- Add Styled-components for better component-level styling.
- Migrate the codebase to TypeScript.
- Implement Unit Testing for better code reliability.
- Automatically detect user location using the Geolocation API.
- Temperature Conversion: Support for Celsius/Fahrenheit toggling.
- Dark/Light Mode for personalized UI themes.
-📂 File Structure
-src/api/OpenWeatherService.js: Handles all backend API calls related to weather data.
+Check `packages.json` for details
+
+<br/>
+
+## 📄 Todos
+
+- [ ] Styled-components
+- [ ] Convert the entire project to TypeScript
+- [ ] Unit Testing
+- [ ] On launch, find user location weather by utilizing GeolocationAPI/GEOCODING
+- [ ] Celcius/Fahrenheit conversion
+- [ ] Dark/Light Mode
+
+<br/>
+Thank You ☺
